@@ -7,9 +7,13 @@ export default class Player {
     this.score = 0;
   }
 
-  show(p) {
+  setup() {
+    // set up players if needed
+  }
+
+  draw(p5) {
     // draw player
-    // p.circle...
+    // p5.circle...
   }
 
   update() {
